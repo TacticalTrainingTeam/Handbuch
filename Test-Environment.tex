@@ -1,0 +1,27 @@
+\documentclass[pdftex,fontsize=12pt,a4paper,pointlessnumbers]{scrartcl}
+ 
+\input{./includes/packages.tex}
+
+\input{./includes/titlepage.tex}
+
+\begin{document}
+
+\pagenumbering{gobble} %Seiten nicht mitzählen
+\maketitle
+
+\newpage
+\pagenumbering{roman}
+\tableofcontents
+
+\newpage
+\pagenumbering{arabic}
+
+\input{./includes/Abschnitt/Mustervorlage.tex}
+
+\cleardoublepage
+\appendix
+
+\listoftables
+\addcontentsline{toc}{section}{Tabellenverzeichnis}
+
+\end{document}

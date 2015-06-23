@@ -1,0 +1,15 @@
+\select@language {ngerman}
+\ttl@starttoc {default@1}
+\contentsline {section}{\numberline {1}Das AGA-Handbuch}{2}
+\contentsline {subsection}{\numberline {1.1}Das Truppsystem}{2}
+\contentsline {subsubsection}{\numberline {1.1.1}Die Trupps}{2}
+\contentsline {section}{\numberline {2}Anlagenverzeichnis}{2}
+\ttl@stoptoc {default@1}
+\ttl@stoptoc {default@1}
+\ttl@starttoc {default@2}
+\contentsline {section}{\numberline {A}Irgendein Plan}{A-1}
+\contentsline {subsection}{\numberline {A.1}Plan}{A-1}
+\contentsline {section}{\numberline {B}Irgendein anderer Plan}{B-1}
+\contentsline {subsection}{\numberline {B.1}Plan}{B-1}
+\ttl@stoptoc {default@2}
+\contentsfinish 

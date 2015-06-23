@@ -1,0 +1,50 @@
+\documentclass[pdftex,fontsize=12pt,a4paper,pointlessnumbers]{scrartcl}
+ 
+\input{./includes/packages.tex}
+
+\input{./includes/titlepage.tex}
+
+\begin{document}
+
+\pagenumbering{gobble} %Seiten nicht mitzählen
+%TODO: Titleseite hier!
+\input{./includes/Sonstiges/titlepage.tex}
+\maketitle
+\normalsize
+
+\newpage
+\pagenumbering{roman} %ab hier werden römischen Seiten als Seitenzahlen mitgezählt
+\tableofcontents % Inhaltsverzeichnis
+
+\newpage
+\pagenumbering{arabic} %ab hier werden Seiten als Seitenzahlen mitgezählt
+\include{./includes/Sonstiges/Vorwort}
+% AGA Abschnitte
+\input{./includes/AGA/AGA_Truppsystem}
+\input{./includes/AGA/AGA_Bewegung_im_Gelaende}
+\input{./includes/AGA/AGA_Sicherung_u_Fahrzeuge}
+\input{./includes/AGA/AGA_Befehle}
+\input{./includes/AGA/AGA_Funken}
+
+%Mods
+\input{./includes/MODS/Mods}
+
+%Sonstiges
+\input{./includes/Sonstiges/Tastatur}
+\input{./includes/Sonstiges/Karte}
+\input{./includes/Sonstiges/Manoever_Drill}
+\input{./includes/Sonstiges/CQB}
+\input{./includes/Funk/Funkhandbuch}
+\input{./includes/Sonstiges/Bewaffnung}
+
+%Ganz zum Schluß
+\input{./includes/Sonstiges/Autoren}
+
+\cleardoublepage
+\appendix
+
+\listoftables
+\addcontentsline{toc}{section}{Tabellenverzeichnis}
+
+
+\end{document}
