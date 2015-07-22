@@ -1,0 +1,100 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Vorwort}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}\IeC {\"U}ber dieses Dokument}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Die Grunds\IeC {\"a}tze des TTT}{2}{subsection.1.2}
+\contentsline {section}{\numberline {2}Das AGA-Handbuch}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}\IeC {\"U}ber die Grundausbildung}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Organisation der Trupps}{3}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Organisation und Befehlshierarchie}{5}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Die Trupps}{5}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}Uniformen und Zeichen}{5}{subsubsection.2.2.3}
+\contentsline {subsection}{\numberline {2.3}Dein Buddy und du}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Der Trupp}{6}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Von der Bewegung}{8}{subsection.2.5}
+\contentsline {subsubsection}{\numberline {2.5.1}Bewegungsarten}{8}{subsubsection.2.5.1}
+\contentsline {subsubsection}{\numberline {2.5.2}Die Formationen}{9}{subsubsection.2.5.2}
+\contentsline {paragraph}{\numberline {2.5.2.1}Der Stack}{9}{paragraph.2.5.2.1}
+\contentsline {paragraph}{\numberline {2.5.2.2}Die Kolonne}{9}{paragraph.2.5.2.2}
+\contentsline {paragraph}{\numberline {2.5.2.3}Die Sch\IeC {\"u}tzenkette}{9}{paragraph.2.5.2.3}
+\contentsline {subsubsection}{\numberline {2.5.3}Sicherungsbereiche}{10}{subsubsection.2.5.3}
+\contentsline {subsubsection}{\numberline {2.5.4}Umgang mit der Waffe}{10}{subsubsection.2.5.4}
+\contentsline {paragraph}{\numberline {2.5.4.1}Kreuzen}{11}{paragraph.2.5.4.1}
+\contentsline {paragraph}{\numberline {2.5.4.2}Ann\IeC {\"a}herung an eigene oder verb\IeC {\"u}ndete Kr\IeC {\"a}fte}{11}{paragraph.2.5.4.2}
+\contentsline {subsubsection}{\numberline {2.5.5}Vokabular der Bewegung}{11}{subsubsection.2.5.5}
+\contentsline {subsection}{\numberline {2.6}Sicherungsbereiche}{13}{subsection.2.6}
+\contentsline {subsubsection}{\numberline {2.6.1}Rundumsicherung}{13}{subsubsection.2.6.1}
+\contentsline {subsubsection}{\numberline {2.6.2}180\IeC {\textdegree }-Sicherung}{14}{subsubsection.2.6.2}
+\contentsline {subsection}{\numberline {2.7}Fahrzeuge}{16}{subsection.2.7}
+\contentsline {subsubsection}{\numberline {2.7.1}Auf- und Ab sitzen}{16}{subsubsection.2.7.1}
+\contentsline {subsubsection}{\numberline {2.7.2}Sicherungsbereich}{16}{subsubsection.2.7.2}
+\contentsline {subsection}{\numberline {2.8}Die Befehle \IeC {\textendash } die wichtigsten Kommandos im TTT}{18}{subsection.2.8}
+\contentsline {subsubsection}{\numberline {2.8.1}Kommando lautet <<Deckung!>>}{18}{subsubsection.2.8.1}
+\contentsline {subsubsection}{\numberline {2.8.2}Kommando: <<Bek\IeC {\"a}mpfen \IeC {\textellipsis }!>>}{18}{subsubsection.2.8.2}
+\contentsline {subsubsection}{\numberline {2.8.3}Kommando: <<Feuer frei !>>}{18}{subsubsection.2.8.3}
+\contentsline {subsubsection}{\numberline {2.8.4}Kommando: <<Unterdr\IeC {\"u}ckungsfeuer!>>}{18}{subsubsection.2.8.4}
+\contentsline {subsubsection}{\numberline {2.8.5}Kommando <<Gezieltes Feuer!>>}{18}{subsubsection.2.8.5}
+\contentsline {subsubsection}{\numberline {2.8.6}Kommando <<Feuerfreigabe erteilt>>}{19}{subsubsection.2.8.6}
+\contentsline {subsubsection}{\numberline {2.8.7}Kommando <<Feuer nur auf Freigabe>>}{19}{subsubsection.2.8.7}
+\contentsline {subsubsection}{\numberline {2.8.8}Kommando: <<Stopfen!>>}{19}{subsubsection.2.8.8}
+\contentsline {subsubsection}{\numberline {2.8.9}Kommando lautet <<Tarnen!>>}{19}{subsubsection.2.8.9}
+\contentsline {subsubsection}{\numberline {2.8.10}Kommando: <<Bezieht Stellung bei \IeC {\textellipsis }!>>}{19}{subsubsection.2.8.10}
+\contentsline {subsubsection}{\numberline {2.8.11}Kommando: <<Wechselt die Stellung!>> (Nein, nicht was ihr denkt \IeC {\textellipsis })}{20}{subsubsection.2.8.11}
+\contentsline {subsubsection}{\numberline {2.8.12}Kommando:<<Nehmt ein!>>}{20}{subsubsection.2.8.12}
+\contentsline {subsubsection}{\numberline {2.8.13}Kommando: <<Haltet \IeC {\textellipsis }!>>}{20}{subsubsection.2.8.13}
+\contentsline {subsubsection}{\numberline {2.8.14}Kommando: <<Melden bei Vollzug!>>}{20}{subsubsection.2.8.14}
+\contentsline {subsubsection}{\numberline {2.8.15}Kommando: <<Status>>}{20}{subsubsection.2.8.15}
+\contentsline {subsubsection}{\numberline {2.8.16}Feuerfreigaben}{20}{subsubsection.2.8.16}
+\contentsline {paragraph}{\numberline {2.8.16.1}<<Status - Feuer halten>> oder auch <<Feuerstatus rot>>}{20}{paragraph.2.8.16.1}
+\contentsline {paragraph}{\numberline {2.8.16.2}<<Status - Feuer erwidern>> oder auch <<Feuerstatus gelb>>}{21}{paragraph.2.8.16.2}
+\contentsline {paragraph}{\numberline {2.8.16.3}<<Status - Feuer frei>> oder auch <<Feuerstatus gr\IeC {\"u}n>>}{21}{paragraph.2.8.16.3}
+\contentsline {subsection}{\numberline {2.9}Richtig Funken und Kommunizieren im Trupp}{22}{subsection.2.9}
+\contentsline {subsubsection}{\numberline {2.9.1}Kontakmeldungen}{22}{subsubsection.2.9.1}
+\contentsline {subsubsection}{\numberline {2.9.2}Funkgespr\IeC {\"a}ch unterbrechen}{22}{subsubsection.2.9.2}
+\contentsline {subsubsection}{\numberline {2.9.3}sonstige Meldungen}{23}{subsubsection.2.9.3}
+\contentsline {subsubsection}{\numberline {2.9.4}Wichtigste Funkabk\IeC {\"u}rzungen und Begriffe}{23}{subsubsection.2.9.4}
+\contentsline {section}{\numberline {3}Mods}{24}{section.3}
+\contentsline {subsection}{\numberline {3.1}Task Force Arrowhead Radio (TFAR)}{24}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Tastaturk\IeC {\"u}rzel}{24}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Short Range Funkger\IeC {\"a}t (AN/PRC \IeC {\textendash } 152)}{25}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Long Range Funkger\IeC {\"a}t (RT-15236 (ASIP) - LR)}{26}{subsubsection.3.1.3}
+\contentsline {section}{\numberline {4}n\IeC {\"u}tzliche Tastatur (Um)Belegung}{27}{section.4}
+\contentsline {section}{\numberline {5}Umgang mit der Karte}{28}{section.5}
+\contentsline {section}{\numberline {6}Man\IeC {\"o}ver}{29}{section.6}
+\contentsline {subsection}{\numberline {6.1}Trupp Man\IeC {\"o}ver}{29}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Zug Man\IeC {\"o}ver}{31}{subsection.6.2}
+\contentsline {section}{\numberline {7}CQB}{32}{section.7}
+\contentsline {section}{\numberline {8}Funken}{33}{section.8}
+\contentsline {subsection}{\numberline {8.1}Anforderungen an einen Funker}{33}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}Funkcheck}{33}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}Anrufarten}{33}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Anrufarten}{33}{subsection.8.4}
+\contentsline {subsubsection}{\numberline {8.4.1}Einzelanruf}{34}{subsubsection.8.4.1}
+\contentsline {subsubsection}{\numberline {8.4.2}Reihenanruf}{34}{subsubsection.8.4.2}
+\contentsline {subsubsection}{\numberline {8.4.3}Sammelanruf}{34}{subsubsection.8.4.3}
+\contentsline {subsection}{\numberline {8.5}Gespr\IeC {\"a}chsverlauf}{35}{subsection.8.5}
+\contentsline {subsection}{\numberline {8.6}Gespr\IeC {\"a}ch beenden}{36}{subsection.8.6}
+\contentsline {subsection}{\numberline {8.7}An \IeC {\textendash } und Abmelden im Funkkreis}{36}{subsection.8.7}
+\contentsline {subsubsection}{\numberline {8.7.1}Anmelden im Funkkreis}{36}{subsubsection.8.7.1}
+\contentsline {subsubsection}{\numberline {8.7.2}Abmelden im Funkkreis}{37}{subsubsection.8.7.2}
+\contentsline {subsection}{\numberline {8.8}Bildung eines Funkkreises}{37}{subsection.8.8}
+\contentsline {subsection}{\numberline {8.9}Funken im Gefecht}{37}{subsection.8.9}
+\contentsline {subsection}{\numberline {8.10}Befohlener Frequenzwechsel}{38}{subsection.8.10}
+\contentsline {subsection}{\numberline {8.11}Korrigieren und Annullierung eines Funkspruchs}{38}{subsection.8.11}
+\contentsline {subsubsection}{\numberline {8.11.1}Korrektur eines Funkspruchs}{38}{subsubsection.8.11.1}
+\contentsline {subsubsection}{\numberline {8.11.2}Annullierung eines Funkspruchs}{39}{subsubsection.8.11.2}
+\contentsline {subsection}{\numberline {8.12}Unterbrechen eines Funkgespr\IeC {\"a}chs}{39}{subsection.8.12}
+\contentsline {subsection}{\numberline {8.13}Halten eines Funkgespr\IeC {\"a}chs}{39}{subsection.8.13}
+\contentsline {subsection}{\numberline {8.14}Anfrage f\IeC {\"u}r Freigabe von Sondereins\IeC {\"a}tzen}{40}{subsection.8.14}
+\contentsline {subsection}{\numberline {8.15}Funkverkehr bei schlechtem Verst\IeC {\"a}ndnis}{40}{subsection.8.15}
+\contentsline {section}{\numberline {9}Die Bewaffnung}{41}{section.9}
+\contentsline {subsection}{\numberline {9.1}G36-Visier}{41}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Das G36}{42}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Das MG5 (HK121)}{42}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Das Panzerfaust 3 Visier}{42}{subsection.9.4}
+\contentsline {subsection}{\numberline {9.5}Die Panzerfaust 3}{43}{subsection.9.5}
+\contentsline {subsection}{\numberline {9.6}Das Fliegerfaust 2 Stinger Visier}{44}{subsection.9.6}
+\contentsline {subsection}{\numberline {9.7}Die Fliegerfaust}{44}{subsection.9.7}
+\contentsline {subsection}{\numberline {9.8}Granaten}{45}{subsection.9.8}
+\contentsline {subsection}{\numberline {9.9}Sonderbewaffnung}{45}{subsection.9.9}
+\contentsline {section}{\numberline {10}Autoren}{46}{section.10}
+\contentsline {section}{Tabellenverzeichnis}{47}{section*.3}
