@@ -1,0 +1,71 @@
+\documentclass[pdftex,fontsize=12pt,a4paper,numbers=noenddot]{scrartcl}
+ 
+\input{./includes/packages.tex}
+
+
+\begin{document}
+
+\pagenumbering{gobble} %Seiten nicht mitzählen
+\input{tex/titlepage.tex}
+
+\newpage
+\pagenumbering{roman} %ab hier werden römischen Seiten als Seitenzahlen mitgezählt
+\tableofcontents % Inhaltsverzeichnis
+
+\newpage
+\pagenumbering{arabic} %ab hier werden Seiten als Seitenzahlen mitgezählt
+\include{tex/Vorwort}
+
+%Truppengattungen
+\input{tex/Truppengattungen/Truppengattungen}
+\newpage
+
+% Grundlagen
+\section{Grundlagen}
+\input{./Grundlagen/Formation}
+\input{./Grundlagen/Sicherung}
+\input{./Grundlagen/Buddy}
+\input{./Grundlagen/Kommandos}
+\input{./Grundlagen/Bewegung_im_Gelaende}
+\input{./Grundlagen/Funken}
+\input{./Grundlagen/Umgang_mit_Fahrzeugen}
+\input{./Grundlagen/Erste_Hilfe}
+\input{.//Grundlagen/Verhalten_bei_Feindkontakt}
+\newpage
+
+%Fortgeschrittenes
+\section{Fortgeschrittenes}
+\input{./Advanced/Fuehren}
+\input{./Advanced/Logistik_MedEvac}
+\input{./Advanced/Close_Air_Support}
+\input{./Advanced/Artillerie}
+\input{./Advanced/Close_Quarters_Battle}
+\input{./Advanced/Hubschrauber+Infanterie}
+\input{./Advanced/Falschirmjaeger}
+\input{./Advanced/Sanitaetssystem}
+\input{./Advanced/Konvoi}
+\input{./Advanced/KarteUndMarkierungen/KuKintro}
+\input{./Sonstiges/Operationsplanung}
+\newpage
+
+%Mods
+\section{Tutorials}
+\input{./Tutorials/Mods}
+\newpage
+
+%Sonstiges
+\section{Sonstiges}
+\input{./Sonstiges/Tastatur}
+\input{./Sonstiges/abkuerzungsverzeichnis}
+
+%Ganz zum Schluss
+\input{./Sonstiges/Autoren}
+
+\cleardoublepage
+\appendix
+
+\listoftables
+\addcontentsline{toc}{section}{Tabellenverzeichnis}
+
+
+\end{document}
