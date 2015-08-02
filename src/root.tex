@@ -1,12 +1,12 @@
 \documentclass[pdftex,fontsize=12pt,a4paper,numbers=noenddot]{scrartcl}
  
-\input{./includes/packages.tex}
+\input{./packages.tex}
 
 
 \begin{document}
 
 \pagenumbering{gobble} %Seiten nicht mitzählen
-\input{tex/titlepage.tex}
+\input{./tex/titlepage.tex}
 
 \newpage
 \pagenumbering{roman} %ab hier werden römischen Seiten als Seitenzahlen mitgezählt
@@ -14,52 +14,51 @@
 
 \newpage
 \pagenumbering{arabic} %ab hier werden Seiten als Seitenzahlen mitgezählt
-\include{tex/Vorwort}
+\input{./tex/Vorwort}
 
 %Truppengattungen
-\input{tex/Truppengattungen/Truppengattungen}
+\input{./tex/truppengattungen/Truppengattungen}
 \newpage
 
 % Grundlagen
 \section{Grundlagen}
-\input{./Grundlagen/Formation}
-\input{./Grundlagen/Sicherung}
-\input{./Grundlagen/Buddy}
-\input{./Grundlagen/Kommandos}
-\input{./Grundlagen/Bewegung_im_Gelaende}
-\input{./Grundlagen/Funken}
-\input{./Grundlagen/Umgang_mit_Fahrzeugen}
-\input{./Grundlagen/Erste_Hilfe}
-\input{.//Grundlagen/Verhalten_bei_Feindkontakt}
+\input{./tex/grundlagen/formationen/formation}
+\input{./tex/grundlagen/sicherungen/sicherung}
+\input{./tex/grundlagen/buddySystem/buddy}
+\input{./tex/grundlagen/funkenKommunikation/kommandos}
+\input{./tex/grundlagen/manoeverBewegenImGelaende/bewegung_im_gelaende}
+\input{./tex/grundlagen/funkenKommunikation/funken}
+\input{./tex/grundlagen/umgangMitFahrzeugen/umgang_mit_fahrzeugen}
+\input{./tex/grundlagen/ersteHilfe/erste_hilfe}
+\input{./tex/grundlagen/verhaltenBeiFeindkontakt/verhalten_bei_feindkontakt}
 \newpage
 
 %Fortgeschrittenes
 \section{Fortgeschrittenes}
-\input{./Advanced/Fuehren}
-\input{./Advanced/Logistik_MedEvac}
-\input{./Advanced/Close_Air_Support}
-\input{./Advanced/Artillerie}
-\input{./Advanced/Close_Quarters_Battle}
-\input{./Advanced/Hubschrauber+Infanterie}
-\input{./Advanced/Falschirmjaeger}
-\input{./Advanced/Sanitaetssystem}
-\input{./Advanced/Konvoi}
-\input{./Advanced/KarteUndMarkierungen/KuKintro}
-\input{./Sonstiges/Operationsplanung}
+\input{./tex/fortgeschrittenes/fuehren/fuehren}
+\input{./tex/fortgeschrittenes/logistikMedevacAnfordern/Logistik_MedEvac}
+\input{./tex/fortgeschrittenes/casAnfordern/close_air_support}
+\input{./tex/fortgeschrittenes/artillerieAnfordern/artillerie}
+\input{./tex/fortgeschrittenes/closeQuartersCombat/close_quarters_battle}
+\input{./tex/fortgeschrittenes/hubschrauberUndInfanterie/hubschrauber_infanterie}
+\input{./tex/fortgeschrittenes/fallschirmspringen/falschirmjaeger}
+\input{./tex/fortgeschrittenes/saniSani/sanitaetssystem}
+\input{./tex/fortgeschrittenes/konvoi/konvoi}
+\input{./tex/fortgeschrittenes/karteUndMarkierungen/kuKintro}
 \newpage
 
 %Mods
 \section{Tutorials}
-\input{./Tutorials/Mods}
+\input{./tex/tutorials/tfar/tfar}
 \newpage
 
 %Sonstiges
 \section{Sonstiges}
-\input{./Sonstiges/Tastatur}
-\input{./Sonstiges/abkuerzungsverzeichnis}
+\input{./tex/sonstiges/tastatur}
+\input{./tex/sonstiges/abkuerzungsverzeichnis}
 
 %Ganz zum Schluss
-\input{./Sonstiges/Autoren}
+\input{./tex/sonstiges/autoren}
 
 \cleardoublepage
 \appendix
