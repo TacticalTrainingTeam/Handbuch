@@ -1,0 +1,69 @@
+\documentclass[pdftex,fontsize=12pt,a4paper,numbers=noenddot]{scrartcl}
+ 
+\input{./packages.tex}
+
+
+\begin{document}
+
+\pagenumbering{gobble} %Seiten nicht mitzählen
+\input{./tex/einleitung/titlepage.tex}
+
+\newpage
+\pagenumbering{roman} %ab hier werden römischen Seiten als Seitenzahlen mitgezählt
+\tableofcontents % Inhaltsverzeichnis
+
+\newpage
+\pagenumbering{arabic} %ab hier werden Seiten als Seitenzahlen mitgezählt
+\input{./tex/einleitung/vorwort}
+
+%Truppengattungen
+\input{./tex/truppengattungen/content}
+\newpage
+
+% Grundlagen
+\section{Grundlagen}
+\input{./tex/grundlagen/formationen/content}
+\input{./tex/grundlagen/sicherungen/content}
+\input{./tex/grundlagen/buddySystem/content}
+\input{./tex/grundlagen/funkenKommunikation/content}
+\input{./tex/grundlagen/manoeverBewegenImGelaende/content}
+\input{./tex/grundlagen/umgangMitFahrzeugen/content}
+\input{./tex/grundlagen/ersteHilfe/content}
+\input{./tex/grundlagen/verhaltenBeiFeindkontakt/content}
+\newpage
+
+%Fortgeschrittenes
+\section{Fortgeschrittenes}
+\input{./tex/fortgeschrittenes/fuehren/content}
+\input{./tex/fortgeschrittenes/logistikMedevacAnfordern/content}
+\input{./tex/fortgeschrittenes/casAnfordern/content}
+\input{./tex/fortgeschrittenes/artillerieAnfordern/content}
+\input{./tex/fortgeschrittenes/closeQuartersCombat/content}
+\input{./tex/fortgeschrittenes/hubschrauberUndInfanterie/content}
+\input{./tex/fortgeschrittenes/fallschirmspringen/content}
+\input{./tex/fortgeschrittenes/saniSani/content}
+\input{./tex/fortgeschrittenes/konvoi/content}
+\input{./tex/fortgeschrittenes/karteUndMarkierungen/content}
+\newpage
+
+%Mods
+\section{Tutorials}
+\input{./tex/tutorials/tfar/content}
+\newpage
+
+%Sonstiges
+\section{Sonstiges}
+\input{./tex/sonstiges/tastatur}
+\input{./tex/sonstiges/abkuerzungsverzeichnis}
+
+%Ganz zum Schluss
+\input{./tex/sonstiges/autoren}
+
+\cleardoublepage
+\appendix
+
+\listoftables
+\addcontentsline{toc}{section}{Tabellenverzeichnis}
+
+
+\end{document}
