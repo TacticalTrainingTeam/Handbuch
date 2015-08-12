@@ -70,10 +70,13 @@
 \clearscrheadfoot{}
 \ofoot[]{\pagemark}
 \ifoot[]{TTT}
-\cfoot[]{Version 0.8, \today }
+\cfoot[]{Version 0.8, \today}
 \ohead[]{\headmark}
 \setheadsepline[\textwidth]{1pt}
 
 % Ebenen Nummerierungen
 \setcounter{secnumdepth}{4} %Nummerierungsebenen
 \setcounter{tocdepth}{4}   %Ebenen Inhaltsverzeichnis
+
+%Neuer Splatentyp für Tabellen (dient dazu, dass die erste Splate zentiert werden kann)
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
