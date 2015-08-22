@@ -1,4 +1,4 @@
-\documentclass[pdftex,fontsize=12pt,a4paper,numbers=noenddot]{scrartcl}
+\documentclass[pdftex,fontsize=12pt,a4paper,numbers=noenddot]{scrreprt}
  
 \input{./packages.tex}
 
@@ -17,11 +17,12 @@
 \input{./tex/einleitung/vorwort}
 
 %Truppengattungen
+\chapter{Truppengattungen}
 \input{./tex/truppengattungen/content}
 \newpage
 
 % Grundlagen
-\section{Grundlagen}
+\chapter{Grundlagen}
 \input{./tex/grundlagen/formationen/content}
 \input{./tex/grundlagen/sicherungen/content}
 \input{./tex/grundlagen/buddySystem/content}
@@ -33,7 +34,7 @@
 \newpage
 
 %Fortgeschrittenes
-\section{Fortgeschrittenes}
+\chapter{Fortgeschrittenes}
 \input{./tex/fortgeschrittenes/fuehren/content}
 \input{./tex/fortgeschrittenes/logistikMedevacAnfordern/content}
 \input{./tex/fortgeschrittenes/casAnfordern/content}
@@ -47,12 +48,12 @@
 \newpage
 
 %Mods
-\section{Tutorials}
+\chapter{Tutorials}
 \input{./tex/tutorials/tfar/content}
 \newpage
 
 %Sonstiges
-\section{Sonstiges}
+\chapter{Sonstiges}
 \input{./tex/sonstiges/tastatur}
 \input{./tex/sonstiges/abkuerzungsverzeichnis}
 
@@ -61,9 +62,5 @@
 
 \cleardoublepage
 \appendix
-
-\listoftables
-\addcontentsline{toc}{section}{Tabellenverzeichnis}
-
 
 \end{document}

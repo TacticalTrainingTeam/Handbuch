@@ -64,6 +64,7 @@
 \usepackage{url}
 
 \usepackage{pdflscape}
+\usepackage{pdfpages}
 
 % Einstellungen Kopf- und Fußzeile
 \pagestyle{scrheadings}
@@ -80,3 +81,9 @@
 
 %Neuer Splatentyp für Tabellen (dient dazu, dass die erste Splate zentiert werden kann)
 \newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+
+%Eigenen Befehl für Newline definieren
+\newcommand{\nl}{\newline}
+
+%Inhaltsverzeichnistiefe bestimmen
+\setcounter{tocdepth}{1}
