@@ -49,3 +49,5 @@ TTT-Bibel.log
 *.lot
 *.gz(busy)
 *.log
+src/root.pdf
+src/root.synctex.gz
