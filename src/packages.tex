@@ -1,3 +1,4 @@
+%Beinhaltet alle verwendeten Pakete
 % Dateiformat 
 \usepackage[utf8]{inputenc}
 
@@ -10,10 +11,6 @@
 % Serifenlose Schrift wie Arial
 \usepackage[scaled]{uarial}
 \renewcommand*{\familydefault}{\sfdefault}
-
-% Zeilenabstand
-\linespread{1.15}
-\setlength{\parindent}{0pt} 
 
 % Seitenränder etc
 \usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm,bindingoffset=0mm]{geometry}
@@ -45,20 +42,7 @@
 \usepackage{float}
 
 %Abkürzungsverzeichnis
-%Optionen:
-%PrintOnlyUsed - nur genutzte Abkürzungen werden verwendet
-%Withpage - im Abkürzungsverzeichnis wird die Seitenzahl eingefügt (erstes Auftreten der Abkürzung)
-%\usepackage[printonlyused,withpage]{acronym}
 \usepackage{acronym}
-
-% Farben
-\usepackage{xcolor}
-\definecolor{blue}{RGB}{0,0,120}
-\definecolor{green}{RGB}{0,153,0}
-\definecolor{backcolor}{rgb}{0.9,0.9,0.9}
-\definecolor{yellow}{RGB}{255,210,0}
-\definecolor{gold}{RGB}{218,165,32}
-\definecolor{DarkOrchid}{RGB}{92,30,123}
 
 % Hyperlinks in der PDF
 \usepackage[colorlinks, linkcolor=black]{hyperref}
@@ -66,22 +50,3 @@
 
 \usepackage{pdflscape}
 \usepackage{pdfpages}
-
-% Einstellungen Kopf- und Fußzeile
-\pagestyle{scrheadings}
-\clearscrheadfoot{}
-\ofoot[]{\pagemark}
-\ifoot[]{TTT}
-\cfoot[]{Version 0.8, \today}
-\ohead[]{\headmark}
-\setheadsepline[\textwidth]{1pt}
-
-% Ebenen Nummerierungen
-\setcounter{secnumdepth}{4} %Nummerierungsebenen
-\setcounter{tocdepth}{1}   %Ebenen Inhaltsverzeichnis
-
-%Neuer Splatentyp für Tabellen (dient dazu, dass die erste Splate zentiert werden kann)
-\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
-
-%Eigenen Befehl für Newline definieren
-\newcommand{\nl}{\newline}
