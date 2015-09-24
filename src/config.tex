@@ -2,6 +2,19 @@
 % Zeilenabstand
 \linespread{1.15}
 \setlength{\parindent}{0pt} 
+
+%Seitenränder
+\geometry{
+	left=40mm,
+	right=20mm,
+	top=30mm,
+	bottom=30mm,
+}
+
+%Verzeichnisebenen Bilder und Tabellen
+\counterwithin{figure}{section}
+\counterwithin{table}{section} 
+
 %Absand Aufzählung
 \setlist[1]{itemsep=0pt}
 
@@ -32,3 +45,5 @@
 
 %Eigenen Befehl für Newline definieren
 \newcommand{\nl}{\newline}
+
+\renewcommand*{\familydefault}{\sfdefault}

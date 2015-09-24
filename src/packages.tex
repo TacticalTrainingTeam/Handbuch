@@ -10,14 +10,15 @@
 
 % Serifenlose Schrift wie Arial
 \usepackage[scaled]{uarial}
-\renewcommand*{\familydefault}{\sfdefault}
 
-% Seitenränder etc
-\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm,bindingoffset=0mm]{geometry}
+
+% Gemetrie-Packet für Seitenränder
+\usepackage{geometry}
 
 % Bilder und Grafiken
 \usepackage{graphicx}
 \usepackage{wrapfig}
+\usepackage{subfigure}
 
 % Kopf- und Fußzeilen
 \usepackage{footmisc}
@@ -26,6 +27,7 @@
 % Aufzählungen, Tabellen, ...
 \usepackage{enumitem}
 \usepackage{longtable}
+\usepackage{booktabs}
 \usepackage{supertabular}
 \usepackage{tabularx}
 \usepackage{longtable}
@@ -34,8 +36,6 @@
 
 % Nummerierung von Abbildungen
 \usepackage{chngcntr}
-\counterwithin{figure}{section}
-\counterwithin{table}{section} 
 
 % Schriftsatz
 \usepackage{textcomp}
