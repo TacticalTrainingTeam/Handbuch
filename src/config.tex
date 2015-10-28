@@ -30,9 +30,8 @@
 % Einstellungen Kopf- und Fußzeile
 \pagestyle{scrheadings}
 \clearscrheadfoot{}
-\ofoot[]{\pagemark}
-\ifoot[]{TTT}
-\cfoot[]{Version 0.8, \today}
+\ofoot[]{\textbf{\vrule}\,\pagemark}
+\ihead[]{Tactical Training Team}
 \ohead[]{\headmark}
 \setheadsepline[\textwidth]{1pt}
 
@@ -42,8 +41,10 @@
 
 %Neuer Splatentyp für Tabellen (dient dazu, dass die erste Splate zentiert werden kann)
 \newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+%linksbündiger Spaltentyp
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
 
 %Eigenen Befehl für Newline definieren
 \newcommand{\nl}{\newline}
 
-\renewcommand*{\familydefault}{\sfdefault}
+\renewcommand*{\familydefault}{\sfdefault}		
