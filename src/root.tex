@@ -1,65 +1,44 @@
 \documentclass[pdftex,fontsize=12pt,a4paper,numbers=noenddot]{scrreprt}
- 
+
 \input{./packages.tex}
+\input{./config.tex}
 
 \begin{document}
-
-\pagenumbering{gobble} %Seiten nicht mitzählen
-\input{./tex/einleitung/titlepage.tex}
-
-\newpage
-\pagenumbering{roman} %ab hier werden römischen Seiten als Seitenzahlen mitgezählt
-\tableofcontents % Inhaltsverzeichnis
-
-\newpage
-\pagenumbering{arabic} %ab hier werden Seiten als Seitenzahlen mitgezählt
-\input{./tex/einleitung/vorwort}
-
-%Truppengattungen
-\chapter{Truppenordnung}
-\input{./tex/truppenordnung/content}
-\newpage
-
-% Grundlagen
-\chapter{Grundlagen}
-\input{./tex/grundlagen/buddySystem/content}
-\input{./tex/grundlagen/sicherungen/content}
-\input{./tex/grundlagen/formationen/content}
-\input{./tex/grundlagen/funkenKommunikation/content}
-\input{./tex/grundlagen/manoeverBewegenImGelaende/content}
-\input{./tex/grundlagen/umgangMitFahrzeugen/content}
-\input{./tex/grundlagen/ersteHilfe/content}
-\input{./tex/grundlagen/verhaltenBeiFeindkontakt/content}
-\newpage
-
-%Fortgeschrittenes
-\chapter{Fortgeschrittenes}
-\input{./tex/fortgeschrittenes/fuehren/content}
-\input{./tex/fortgeschrittenes/logistikMedevacAnfordern/content}
-\input{./tex/fortgeschrittenes/casAnfordern/content}
-\input{./tex/fortgeschrittenes/artillerieAnfordern/content}
-\input{./tex/fortgeschrittenes/closeQuartersCombat/content}
-\input{./tex/fortgeschrittenes/hubschrauberUndInfanterie/content}
-\input{./tex/fortgeschrittenes/fallschirmspringen/content}
-\input{./tex/fortgeschrittenes/saniSani/content}
-\input{./tex/fortgeschrittenes/konvoi/content}
-\input{./tex/fortgeschrittenes/karteUndMarkierungen/content}
-\newpage
-
-%Mods
-\chapter{Tutorials}
-\input{./tex/tutorials/tfar/content}
-\newpage
-
-%Sonstiges
-\chapter{Sonstiges}
-\input{./tex/sonstiges/tastatur}
-\input{./tex/sonstiges/abkuerzungsverzeichnis}
-
-%Ganz zum Schluss
-\input{./tex/sonstiges/autoren}
-
-\cleardoublepage
-\appendix
-
+	
+	\pagenumbering{gobble} %Seiten nicht mitzählen
+	\input{./tex/einleitung/titlepage.tex}
+	
+	\newpage
+	\pagenumbering{roman} %ab hier werden römischen Seiten als Seitenzahlen mitgezählt
+	\tableofcontents % Inhaltsverzeichnis
+	
+	\newpage
+	\pagenumbering{arabic} %ab hier werden Seiten als Seitenzahlen mitgezählt
+	\input{./tex/einleitung/vorwort}
+	
+	%Truppengattungen
+	\include{./tex/truppenordnung/content}
+	
+	% Grundlagen
+	\include{./tex/grundlagen/content}
+	
+	%Fortgeschrittenes
+	\include{./tex/fortgeschrittenes/content}
+	
+	%Mods
+	%\chapter{Tutorials}
+	%\input{./tex/tutorials/tfar/content}
+	%\pagebreak
+	
+	%Sonstiges
+	%\chapter{Sonstiges}
+	%\input{./tex/sonstiges/tastatur}
+	\input{./tex/sonstiges/abkuerzungsverzeichnis}
+	
+	%Ganz zum Schluss
+	\input{./tex/sonstiges/autoren}
+	
+	\cleardoublepage
+	\appendix
+	
 \end{document}
