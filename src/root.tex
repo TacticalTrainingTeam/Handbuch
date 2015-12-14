@@ -4,41 +4,45 @@
 \input{./config.tex}
 
 \begin{document}
-	
-	\pagenumbering{gobble} %Seiten nicht mitzählen
-	\input{./tex/einleitung/titlepage.tex}
-	
-	\newpage
-	\pagenumbering{roman} %ab hier werden römischen Seiten als Seitenzahlen mitgezählt
-	\tableofcontents % Inhaltsverzeichnis
-	
-	\newpage
-	\pagenumbering{arabic} %ab hier werden Seiten als Seitenzahlen mitgezählt
-	\input{./tex/einleitung/vorwort}
-	
-	%Truppengattungen
-	\include{./tex/truppenordnung/content}
-	
-	% Grundlagen
-	\include{./tex/grundlagen/content}
-	
-	%Fortgeschrittenes
-	\include{./tex/fortgeschrittenes/content}
-	
-	%Mods
-	%\chapter{Tutorials}
-	%\input{./tex/tutorials/tfar/content}
-	%\pagebreak
-	
-	%Sonstiges
-	%\chapter{Sonstiges}
-	%\input{./tex/sonstiges/tastatur}
-	\input{./tex/sonstiges/abkuerzungsverzeichnis}
-	
-	%Ganz zum Schluss
-	\input{./tex/sonstiges/autoren}
-	
-	\cleardoublepage
-	\appendix
-	
+
+\pagenumbering{gobble} %Seiten nicht mitzählen
+\input{./tex/einleitung/titlepage.tex}
+
+\newpage
+\pagenumbering{roman} %ab hier werden römischen Seiten als Seitenzahlen mitgezählt
+
+\tableofcontents % Inhaltsverzeichnis
+
+\newpage
+\pagenumbering{arabic} %ab hier werden Seiten als Seitenzahlen mitgezählt
+\pagestyle{scrheadings}
+\renewcommand{\chapterpagestyle}{scrheadings}
+\input{./tex/einleitung/vorwort}
+
+%\part{}
+%Truppengattungen
+\include{./tex/truppenordnung/content}
+
+% Grundlagen
+\include{./tex/grundlagen/content}
+
+%Fortgeschrittenes
+\include{./tex/fortgeschrittenes/content}
+
+%Mods
+%\part{SGA \& Tutorials}
+%\input{./tex/tutorials/spz/spz}
+%\input{./tex/tutorials/tfar/content}
+%\pagebreak
+
+%Sonstiges
+%\chapter{Sonstiges}
+%\input{./tex/sonstiges/tastatur}
+\input{./tex/sonstiges/abkuerzungsverzeichnis}
+
+%Ganz zum Schluss
+\input{./tex/sonstiges/autoren}
+
+\cleardoublepage
+\appendix
 \end{document}

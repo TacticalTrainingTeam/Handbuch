@@ -5,7 +5,7 @@
 
 %Seitenränder
 \geometry{
-	left=40mm,
+	left=30mm,
 	right=20mm,
 	top=30mm,
 	bottom=30mm,
@@ -28,12 +28,15 @@
 \definecolor{DarkOrchid}{RGB}{92,30,123}
 
 % Einstellungen Kopf- und Fußzeile
-\pagestyle{scrheadings}
+\pagestyle{empty}
 \clearscrheadfoot{}
 \ofoot[]{\textbf{\vrule}\,\pagemark}
-\ihead[]{Tactical Training Team}
-\ohead[]{\headmark}
-\setheadsepline[\textwidth]{1pt}
+%\ihead[]{Tactical Training Team}
+%\ohead[]{\headmark}
+\chead[]{\includegraphics[width=1.05\textwidth]{./img/header}}
+\addtolength{\headheight}{10mm}
+\addtolength{\footskip}{-10mm}
+%\setheadsepline[\textwidth]{1pt}[\color{800000}]
 
 % Ebenen Nummerierungen
 \setcounter{secnumdepth}{4} %Nummerierungsebenen
