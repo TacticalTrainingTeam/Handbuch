@@ -28,7 +28,7 @@
 \definecolor{DarkOrchid}{RGB}{92,30,123}
 
 % Einstellungen Kopf- und Fußzeile
-\pagestyle{scrheadings}
+\pagestyle{empty}
 \clearscrheadfoot{}
 \ofoot[]{\textbf{\vrule}\,\pagemark}
 %\ihead[]{Tactical Training Team}
@@ -50,4 +50,6 @@
 %Eigenen Befehl für Newline definieren
 \newcommand{\nl}{\newline}
 
-\renewcommand*{\familydefault}{\sfdefault}		
+\renewcommand*{\familydefault}{\sfdefault}	
+\renewcommand*\chapterheadstartvskip {%
+	\vspace*{1\baselineskip plus .1\baselineskip minus .067\baselineskip}}
