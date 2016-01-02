@@ -1,0 +1,17 @@
+\documentclass[pdftex,fontsize=12pt,a4paper,numbers=noenddot]{scrartcl}
+
+\input{./packages.tex}
+\input{./config.tex}
+
+\begin{document}
+\renewcommand{\subsection}[1]{\section{#1}}
+\renewcommand{\subsubsection}[2]{\subsection{#2}}
+
+\pagenumbering{gobble} %Seiten nicht mitzählen
+\input{./tex/einleitung/titlepage.tex}
+
+\newpage
+\pagenumbering{arabic} %ab hier werden Seiten als Seitenzahlen mitgezählt
+
+\input{./tex/advanced/fallschirmspringen/content}
+\end{document}
