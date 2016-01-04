@@ -1,0 +1,53 @@
+\documentclass[pdftex,fontsize=12pt,a4paper,numbers=noenddot]{scrreprt}
+
+\input{./packages.tex}
+\input{./config.tex}
+
+\begin{document}
+
+
+\pagenumbering{gobble} %Seiten nicht mitzählen
+\input{./einleitung/titlepage.tex}
+
+\newpage
+\pagenumbering{roman} %ab hier werden römischen Seiten als Seitenzahlen mitgezählt
+
+\tableofcontents % Inhaltsverzeichnis
+
+\newpage
+\pagenumbering{arabic} %ab hier werden Seiten als Seitenzahlen mitgezählt
+\pagestyle{scrheadings}
+\renewcommand{\chapterpagestyle}{scrheadings}
+\input{./einleitung/vorwort}
+
+\part*{ATCHUNG hierbei handelt es sich um eine BETA-Version, dementsprechend können Abweichungen zu Training und Ensteigerevent existieren}
+\part{Truppenordnung \& Basisentnisse}
+%Truppengattungen
+\include{./truppenordnung/truppenordnung}
+
+% Grundlagen
+\include{./basic/basic}
+
+%Fortgeschrittenes
+\part{Erweiterte Kenntnisse}
+\include{./advanced/advanced}
+
+%Mods
+\part{SGA \& Tutorials}
+\chapter{SGA}
+%\input{./speical/spz/spz}
+\chapter{Tutorials}
+%\input{./sepical/tfar/content}
+%\pagebreak
+
+%Sonstiges
+%\chapter{Sonstiges}
+%\input{./sonstiges/tastatur}
+\input{./appendix/abkuerzungsverzeichnis}
+
+%Ganz zum Schluss
+\input{./appendix/autoren}
+
+\cleardoublepage
+\appendix
+\end{document}
