@@ -11,6 +11,9 @@
 	bottom=30mm,
 }
 
+% Befehle zur Ausgabe von Tactical Training Team
+\newcommand{\TTT}{Tactical Training Team}
+
 %Verzeichnisebenen Bilder und Tabellen
 \counterwithin{figure}{section}
 \counterwithin{table}{section} 
@@ -26,6 +29,17 @@
 \definecolor{yellow}{RGB}{255,210,0}
 \definecolor{gold}{RGB}{218,165,32}
 \definecolor{DarkOrchid}{RGB}{92,30,123}
+
+%Url-Einstellungen
+%\hypersetup{colorlinks=false, linkcolor=black}
+\hypersetup{%
+	hidelinks,
+	%colorlinks=false,% hyperlinks will be black
+	%linkbordercolor=black,% hyperlink borders will be black
+	%pdfborderstyle={/S/U/W 1},% border style will be underline of width 1pt
+	pdfauthor={\TTT}
+}
+
 
 % Einstellungen Kopf- und Fußzeile
 \pagestyle{empty}
