@@ -14,9 +14,6 @@
 	bottom=30mm,
 }
 
-% Befehle zur Ausgabe von Tactical Training Team
-\newcommand{\TTT}{Tactical Training Team}
-
 %Verzeichnisebenen Bilder und Tabellen
 \counterwithin{figure}{section}
 \counterwithin{table}{section} 
@@ -84,3 +81,35 @@
 \renewcommand*{\familydefault}{\sfdefault}	
 %\renewcommand*\chapterheadstartvskip {%
 %	\vspace*{1\baselineskip plus .1\baselineskip minus .067\baselineskip}}
+
+% hint boxes
+\newmdenv[%
+roundcorner=5pt,
+backgroundcolor=gray!10!white,
+linewidth=1pt,
+%innertopmargin=0pt,
+%skipabove=0pt,
+linecolor=gray!75,
+font={\normalfont\sffamily},
+%frametitle={Hint},
+%frametitlerule=true,
+%frametitlebackgroundcolor=yellow,
+%frametitlefont={\normalfont\sffamily},
+%frametitleaboveskip=8pt,
+%frametitlebelowskip=8pt,
+subtitlebackgroundcolor=gray!40,
+subtitlefont={\normalfont\sffamily},
+]{hint}
+
+\newmdenv[%
+roundcorner=5pt,
+subtitlebelowline=true,subtitleaboveline=true,
+subtitlebackgroundcolor=yellow!70!white,
+backgroundcolor=blue!20!white,
+frametitle={Theorem},
+frametitlerule=true,
+frametitlebackgroundcolor=yellow!70!white,
+]{subtitleenv}
+
+\newcommand{\rcg}{\rowcolor{gray!40}}
+\newcommand{\rcgg}{\rowcolor{gray!10}}
