@@ -84,9 +84,12 @@
 
 % hint boxes
 \newmdenv[%
+roundcorner=5pt,
 backgroundcolor=gray!10!white,
 linewidth=1pt,
-linecolor=gray!50,
+%innertopmargin=0pt,
+%skipabove=0pt,
+linecolor=gray!75,
 font={\normalfont\sffamily},
 %frametitle={Hint},
 %frametitlerule=true,
@@ -94,6 +97,19 @@ font={\normalfont\sffamily},
 %frametitlefont={\normalfont\sffamily},
 %frametitleaboveskip=8pt,
 %frametitlebelowskip=8pt,
-%subtitlebackgroundcolor=yellow,
-%subtitlefont={\normalfont\sffamily},
+subtitlebackgroundcolor=gray!40,
+subtitlefont={\normalfont\sffamily},
 ]{hint}
+
+\newmdenv[%
+roundcorner=5pt,
+subtitlebelowline=true,subtitleaboveline=true,
+subtitlebackgroundcolor=yellow!70!white,
+backgroundcolor=blue!20!white,
+frametitle={Theorem},
+frametitlerule=true,
+frametitlebackgroundcolor=yellow!70!white,
+]{subtitleenv}
+
+\newcommand{\rcg}{\rowcolor{gray!40}}
+\newcommand{\rcgg}{\rowcolor{gray!10}}
