@@ -42,7 +42,7 @@
 \ofoot[]{\textbf{\vrule}\,\pagemark}
 %\ihead[]{Tactical Training Team}
 %\ohead[]{\headmark}
-\chead[]{\includegraphics[width=1.05\textwidth]{../img/header}}
+\chead[]{\includegraphics[width=1.0\textwidth]{../img/header}}
 \addtolength{\headheight}{10mm}
 \addtolength{\footskip}{-10mm}
 %\setheadsepline[\textwidth]{1pt}[\color{800000}]
@@ -113,3 +113,26 @@ frametitlebackgroundcolor=yellow!70!white,
 
 \newcommand{\rcg}{\rowcolor{gray!40}}
 \newcommand{\rcgg}{\rowcolor{gray!10}}
+
+ %\overfullrule=5pt
+ %\underfullrule=5pt
+ 
+ 
+\RedeclareSectionCommand[
+	beforeskip=-.75sp,
+	afterskip=1.5\baselineskip]{chapter}
+\RedeclareSectionCommand[
+	beforeskip=1.0\baselineskip,
+	afterskip=.75\baselineskip]{section}
+\RedeclareSectionCommand[
+	beforeskip=-.75\baselineskip,
+	afterskip=.5\baselineskip]{subsection}
+\RedeclareSectionCommand[
+	beforeskip=-.75\baselineskip,
+	afterskip=.25\baselineskip]{subsubsection}
+\RedeclareSectionCommand[
+	beforeskip=.75\baselineskip,
+	afterskip=.25\baselineskip]{paragraph}
+
+%\setlength{\footheight}{56pt}
+%\setlength{\headheight}{44.83598pt}
